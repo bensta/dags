@@ -11,7 +11,7 @@ import os
 def train_model():
     print("hello world")
 
-with DAG('training_pipeline', start_date=datetime(2016, 1, 1)) as dag:
+with DAG('hello_world', start_date=datetime(2016, 1, 1)) as dag:
     t1 = PythonOperator( 
         task_id='train',
         python_callable=train_model,
