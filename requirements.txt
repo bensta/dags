@@ -1,5 +1,1 @@
-matplotlib
-pandas
-numpy
-sklearn
-iso3166
+qrbill
